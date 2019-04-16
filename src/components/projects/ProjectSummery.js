@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import ProjectDetails from "./ProjectDetail";
 const ProjectSummery = ({ project }) => {
   return (

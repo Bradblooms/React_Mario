@@ -17,10 +17,7 @@ class SignIn extends Component {
   render() {
     return (
       <div className="container">
-        <div className="alert">
-          <p>{this.state.email}</p>
-          <p>{this.state.password}</p>
-        </div>
+        <div className="alert" />
         <form onSubmit={this.handelSubmit} className="white">
           <h5 className="grey-text text-darken-3">Sign In</h5>
           <div className="input-field">

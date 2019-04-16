@@ -1,7 +1,10 @@
 import React from "react";
+import { connect } from "react-redux";
 
 const ProjectDetails = props => {
   const id = props.match.params.id;
+  const { projects } = this.props;
+  console.log(projects);
   return (
     <div className="container section project-detail">
       <div className="card z-depth-0">
@@ -23,4 +26,10 @@ const ProjectDetails = props => {
   );
 };
 
-export default ProjectDetails;
+const mapStateToProps = state => {
+  return {
+    projects: state.project.projects
+  };
+};
+
+export default connect(mapStateToProps)(ProjectDetails);
