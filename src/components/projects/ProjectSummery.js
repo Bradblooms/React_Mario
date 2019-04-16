@@ -8,7 +8,9 @@ const ProjectSummery = ({ project }) => {
         <a>
           <span className="card-title"> {project.title}</span>
         </a>
-        <p>Posted by Bardia</p>
+        <p>
+          {project.authorFirstName} {project.authorLastName}
+        </p>
         <p className="grey-text">31th-Jan-2019</p>
       </div>
 
