@@ -1,9 +1,11 @@
 .App {
   font-family: sans-serif;
 }
+
 html {
   min-height: 100%;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -20,7 +22,12 @@ form {
   padding: 20px;
   margin-top: 60px;
 }
-form button,
-form h5 {
+
+form button, form h5 {
   margin: 20px 0;
+}
+
+.App {
+  background: #a0a0a0;
+  min-height: 100vh
 }

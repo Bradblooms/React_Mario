@@ -18,7 +18,7 @@ class Dashboard extends Component {
             </div>
           </div>
           <div className="col s12 m5 offset-m1">
-            <div class="card-panel teal">
+            <div className="card-panel teal">
               <Notification />
             </div>
           </div>
