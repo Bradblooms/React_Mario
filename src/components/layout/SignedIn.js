@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { singOut, signOut } from "../../store/actions/authAction";
-import {Redirect} from 'react-router-dom'
+import { Redirect } from "react-router-dom";
 
 const SignedIn = props => {
   return (
@@ -22,8 +22,6 @@ const SignedIn = props => {
     </ul>
   );
 };
-
-const mapDispatchToProps = dispatch => {
 
 const mapDispatchToProps = dispatch => {
   return {
